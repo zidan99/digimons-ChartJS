@@ -81,9 +81,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Getting Started
 test on 
 xampp with apache and mysql
-
+**Make sure [composer](https://getcomposer.org/) has been installed !**
 First, create `.env` file based from `.env.example`. Then 
 run this command 
+```bash
+php artisan key:generate
+```
+
 ```bash
 php artisan key:generate
 ```
